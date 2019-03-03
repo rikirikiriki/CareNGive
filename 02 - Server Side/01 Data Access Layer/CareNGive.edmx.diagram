@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="e5ff4c5dfe7c4092b8371bbdc68d5a62" Name="Diagram1">
+        <EntityTypeShape EntityType="CareNGiveModel.Advertisement" Width="1.5" PointX="5.25" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CareNGiveModel.Category" Width="1.5" PointX="3" PointY="4.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="CareNGiveModel.ContactInfo" Width="1.5" PointX="3" PointY="7.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="CareNGiveModel.Type" Width="1.5" PointX="3" PointY="12.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="CareNGiveModel.User" Width="1.5" PointX="0.75" PointY="3.875" IsExpanded="true" />
+        <AssociationConnector Association="CareNGiveModel.FK__Advertise__Categ__1DE57479" ManuallyRouted="false" />
+        <AssociationConnector Association="CareNGiveModel.FK__Advertise__Conta__20C1E124" ManuallyRouted="false" />
+        <AssociationConnector Association="CareNGiveModel.FK__Advertise__TypeI__1ED998B2" ManuallyRouted="false" />
+        <AssociationConnector Association="CareNGiveModel.FK__Advertise__UserI__1CF15040" ManuallyRouted="false" />
+        <AssociationConnector Association="CareNGiveModel.FK__Categorie__Paren__145C0A3F" ManuallyRouted="false" />
+        <AssociationConnector Association="CareNGiveModel.FK__ContactIn__UserI__1920BF5C" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
